@@ -16,10 +16,13 @@ public class Principal {
 		arvore1.inserirNo(new BinNo(15));
 		arvore1.inserirNo(new BinNo(10));
 		arvore1.inserirNo(new BinNo(13));
+		arvore1.inserirNo(new BinNo(18));
 		
 		
 		arvore1.exibir();
-//		arvore1.excluirNo(12);
+		
+		arvore1.buscarNo(13);
+		
 //		arvore1.exibir();
 	}
 }
